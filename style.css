@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+    background-color: hsl(194, 100%, 93%);
+    
+}
+
+main{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-community{
+    display: flex;
+    padding: 3rem 3rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+
+    background-color: #fff;
+    border-radius: 10px 10px 0 0;
+
+}
+
+h1{
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+}
+
+.join-community h1{
+    margin: 0 0 1.5rem 0;
+}
+
+.join-community h3{
+    margin: 0 0 1rem 0;
+}
+
+h3{
+    color: hsl(71, 73%, 54%);
+    font-family: 'Karla', sans-serif;
+}
+
+.join-community p{
+    font-family: 'Karla', sans-serif;
+    color: hsl(218, 22%, 67%);
+    line-height: 25px;
+}
+
+.about{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    box-shadow: 0px 10px 20px #bccad4;
+    border-radius: 0 0 10px 10px;
+}   
+
+.subscribe{
+    width: 50%;
+    background-color: #2bb3b1;
+    padding: 2rem;
+    font-family: 'Karla', sans-serif;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    border-radius: 0 0 0 10px;
+
+}
+
+.subscribe h2{
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
+
+.price{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin: 0;
+}
+
+.price h2{
+    font-size: 40px;
+}
+
+.price p{
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+    opacity: 0.5;
+}
+
+.subscribe > p{
+    margin-bottom: 2rem;
+
+}
+
+button{
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    width: 100%;
+    padding: 1rem 0;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px #299593;
+
+}
+
+
+.why-us{
+    width: 50%;
+    padding: 2rem;
+    background-color: #4abebd;
+    font-family: 'Karla', sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    border-radius: 0 0 10px 0px;
+
+}
+
+.why-us h2{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.why-us p{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 30px;
+}
+
+
+
+/*Media query for mobile*/
+
+@media screen and (max-width: 900px){
+
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem auto;
+    
+        background-color: hsl(194, 100%, 93%);
+        
+    }
+
+    main{
+        position: relative;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto 1rem;
+
+
+    }
+
+    .join-community{
+        width: 80%;
+        display: flex;
+        padding: 2rem;
+        flex-direction: column;
+        flex-wrap: wrap;
+        word-wrap: break-word;
+    
+        background-color: #fff;
+        border-radius: 10px 10px 0 0;
+        
+
+    }
+
+    .about{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        box-shadow: 10px 10px 20px #bccad4;
+    }
+
+    .subscribe{
+        width: 100%;
+        background-color: #2bb3b1;
+        padding: 2rem;
+        font-family: 'Karla', sans-serif;
+        font-weight: 200;
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        margin: 0;
+        border-radius: 0 0 0px 0px;
+
+    }
+
+    .why-us{
+        width: 100%;
+        padding: 2rem;
+        background-color: #4abebd;
+        font-family: 'Karla', sans-serif;
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        border-radius: 0 0 10px 10px;
+    }
+}
